@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.font-SOC {
+  font-family: "DM Serif Display", serif !important;
+  color: #ffffff ;
+}
+
+.under-SOC{
+  color: #ffffff;
+  font-style: italic;
+}
+
+.bg-biru{
+  background-color: #103968 !important;
+}
+
+.video{
+  width: 640px;
+  height: 480px;
+  align-items: center;
+}
+
+.penjelasan_SOC{
+  background: #103968;
+  padding-bottom: 150px;
+}
+
+.judul_video{
+text-align: center;
+ color: #ffffff;
+ padding: 10px;
+ border-radius: 8px;
+}
+
+.about_SOC{
+  text-align: center;
+  background: #ffffff;
+  padding: 40px;
+}
+
+.welcome{
+  margin-bottom: -68px !important;
+}
+
+.penjelasan_video{
+  text-align: center;
+  color: #ffffff;
+  padding-top: 40px ;
+}
+
+.manfaat{
+  text-align: center;
+  color: #ffffff;
+  background: #103968;
+  padding: 35px 0;
+}
+
+.uraian_activity{
+  color: #ffffff;
+}
+
+@media (max-width : 480px) {
+  .judul_video{
+    color : black;
+  }
+}
+
+.service{
+  text-align: center !important;
+}
+
+.penting1{
+  text-align: left;
+}
+
+.penting2{
+  text-align: left !important;
+}
+
+.penting3{
+  text-align: left !important;
+}
+
+.penting4{
+  text-align: left !important;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+  transform: scale(1.2);
+}
+
+.social-icons a {
+  color: #f2c808; 
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.garis-horizontal {
+  width: 100%;
+  height: 10px;
+  background-color: #f2c808;
+}
